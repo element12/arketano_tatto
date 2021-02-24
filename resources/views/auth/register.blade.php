@@ -50,7 +50,7 @@
                             </div>
                             <div class="form-row">
                                 <div class="col-lg-7">
-                                    <input id="password" type="password" placeholder="Password"  name="contraseña" class="form-control my-3 p-2 @error('password') is-invalid @enderror">
+                                    <input id="password" type="password" placeholder="Password"  name="password" class="form-control my-3 p-2 @error('password') is-invalid @enderror">
                                     @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -60,13 +60,13 @@
                             </div>
                             <div class="form-row">
                                 <div class="col-lg-7">
-                                    <input id="password-confirm" type="password" placeholder="Confirmar contraseña"  name="password-confirm" class="form-control my-3 p-2 @error('password') is-invalid @enderror">
+                                    <input id="password-confirm" type="password" placeholder="Confirmar contraseña"  name="password_confirmation" class="form-control my-3 p-2 @error('password') is-invalid @enderror">
                             </div>
  
                 
                             <div class="form-row">
                                 <div class="col-lg-7">
-                                    <button type="submit" class="btn1 mt-3 mb-4">Ingresar</button>
+                                    <button type="submit" class="btn1 mt-3 mb-4">Registrarse</button>
                                
                                 </div>
                             </div>
